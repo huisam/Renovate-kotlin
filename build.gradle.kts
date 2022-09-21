@@ -4,7 +4,7 @@ plugins {
     java
 
     id("org.springframework.boot") version PluginVersions.springBoot apply false
-    id("io.spring.dependency-management") version "1.0.11.RELEASE" apply false
+    id("io.spring.dependency-management") version "1.0.14.RELEASE" apply false
     kotlin("jvm") version PluginVersions.kotlin apply false
     kotlin("plugin.spring") version PluginVersions.kotlin apply false
 }
